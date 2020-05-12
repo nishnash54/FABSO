@@ -7,6 +7,11 @@ def viz(results):
     Plot global best value achieved (y-axis) over the generations (x-axis)
     when finding the optimal solution to the objective function
 
+    Arguments
+    ---------
+    results: List
+        List of optimal values achieved at each generation by the particle swarm
+
     Returns
     -------
     plot : matplotlib.pyplot.Figure
